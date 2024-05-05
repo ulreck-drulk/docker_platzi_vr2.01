@@ -1,0 +1,8 @@
+services:
+  front-end:
+    image: ulreckdrulk/getting-started:latest
+    build: 
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 8080:80
